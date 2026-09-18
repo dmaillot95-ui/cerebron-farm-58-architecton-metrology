@@ -1,0 +1,11 @@
+{
+  "farm_id": 58,
+  "name": "ARCHITECTON METROLOGY Ω",
+  "domain": "metrology-inspection",
+  "status": "SCAFFOLDED",
+  "evidence_rules": [
+    "CLAIM <= EVIDENCE",
+    "MEASUREMENT != TRUE VALUE",
+    "PASS/FAIL != UNCERTAINTY ANALYSIS"
+  ]
+}
