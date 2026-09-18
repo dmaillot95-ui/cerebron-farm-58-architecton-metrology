@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "engines": [
+    {
+      "engine_id": "PY-METROLOGY-MVP",
+      "name": "Deterministic uncertainty engine",
+      "category": "metrology-calculation",
+      "version": "stdlib",
+      "capabilities": [
+        "RSS uncertainty",
+        "expanded uncertainty",
+        "tolerance guard band"
+      ],
+      "limitations": [
+        "not calibrated instrument",
+        "not CMM",
+        "simplified independent inputs"
+      ],
+      "validation_status": "MVP",
+      "benchmark_status": "PENDING"
+    }
+  ]
+}
